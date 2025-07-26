@@ -4,7 +4,9 @@ import BmiCalculator from './components/BmiCalculator';
 const App = () => {
   return (
     <div className="App">
-      <BmiCalculator />
+      <div>
+        <BmiCalculator />
+      </div>
     </div>
   );
 }
